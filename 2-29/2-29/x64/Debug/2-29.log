@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+E:\VS\PROJECT\2-29\2-29\FileName.cpp(10,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\VS\PROJECT\2-29\2-29\FileName.cpp(31,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  2-29.vcxproj -> E:\VS\PROJECT\2-29\x64\Debug\2-29.exe
