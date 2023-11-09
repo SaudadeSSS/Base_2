@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int numIdenticalPairs(vector<int>& nums) {
+        int n = 0, i = 1;
+        // 将当前记录和它后面的记录比较，只要相等的，就算做一组
+        // 因为数组的数值和下标保持了一个相对顺序
+        for(const auto& num: nums)
+        {
+            n += count(nums.begin() + i, nums.end(), num);
+            ++i;
+        }
+        return n;
+
+    }
+};
