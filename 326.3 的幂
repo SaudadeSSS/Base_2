@@ -1,0 +1,10 @@
+#define log3(n)  log(n)/log(3)
+class Solution {
+public:
+    bool isPowerOfThree(int n) {
+        if (n == 0) return false;
+        double x = log3(n);
+        return abs(x - round(x)) < 1e-10;
+
+    }
+};
